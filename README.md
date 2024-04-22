@@ -26,3 +26,6 @@ The app integrates with Firebase Firestore for data storage. When a user submits
 ## Twist - Weight Calculation
 In the "Create a Post" screen, users can input their weight allowance in the format "5kg". We parse this input to extract the numeric portion and store it separately in Firestore as the "availableWeight" field. This functionality is implemented in the `create_post_screen.dart` file.
 
+### Some Screenshots
+<img src="https://github.com/imranjeet/Travel-Buddy/assets/48348342/6ce4bab1-9708-45ea-b2d6-a318f1cd7f0b" alt="1" width="200" style="margin-right: 10px;"/>
+<img src="https://github.com/imranjeet/Travel-Buddy/assets/48348342/4ba1b2dc-9045-44c5-a2dd-410c49eb7dab" alt="2" width="200" style="margin-right: 10px;"/>
