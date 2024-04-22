@@ -4,7 +4,7 @@ class Post {
   final String origin;
   final String destination;
   final String travelDate;
-  final String availableWeight;
+  final int availableWeight;
 
   Post({
     required this.origin,

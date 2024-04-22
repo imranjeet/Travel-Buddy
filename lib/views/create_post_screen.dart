@@ -128,7 +128,7 @@ class CreatePostScreen extends StatelessWidget {
         destination: destination,
         travelDate: DateFormat('yyyy-MM-dd').format(
             Provider.of<AirportProvider>(context, listen: false).selectedDate),
-        availableWeight: weightAllowance,
+        availableWeight: int.tryParse(_extractWeight(weightAllowance)) ?? 0,
       );
 
       // Add the new post using the post provider
