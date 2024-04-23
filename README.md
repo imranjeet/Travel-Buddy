@@ -13,7 +13,7 @@ https://drive.google.com/file/d/1Rnkir_3RaigtKHD-4JG4pzMv9RO1-O-3/view?usp=shari
 ## App Structure
 The app is structured into several components:
 1. **Main:** Contains the main entry point of the app and sets up the provider for state management.
-2. **Screens:** Includes the screens for creating a post (`create_post_screen.dart`) and listing available travel routes (`post_listing_screen.dart`).
+2. **Views:** Includes the screens for creating a post (`create_post_screen.dart`) and listing available travel routes (`post_listing_screen.dart`).
 3. **Providers:** Manages the app's state and handles data operations. The `post_provider.dart` file manages posts and integrates with Firebase Firestore.
 4. **Models:** Defines the data models used in the app. The `post.dart` file represents a travel post.
 
