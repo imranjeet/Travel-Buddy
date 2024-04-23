@@ -23,7 +23,7 @@ The app uses the Provider package for state management. It allows us to efficien
 ## Firebase Integration
 The app integrates with Firebase Firestore for data storage. When a user submits a post, the data is saved to Firestore. The `post_provider.dart` file handles interactions with Firestore, including adding new posts and fetching existing ones.
 
-## Twist - Weight Calculation
+## Weight
 In the "Create a Post" screen, users can input their weight allowance in the format "5kg". We parse this input to extract the numeric portion and store it separately in Firestore as the "availableWeight" field. This functionality is implemented in the `create_post_screen.dart` file.
 
 ### Some Screenshots
